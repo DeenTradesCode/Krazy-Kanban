@@ -15,7 +15,7 @@
     "client:dev": "cd Develop/client && npm run dev",
     "build": "npm run client:build",
     "seed": "cd Develop/server && npm run seed",
-    "render-build": "cd Develop/server && npm i && cd ../../Develop/client && npm i && npm run build"
+    "render-build": "mkdir -p server client && cp -R Develop/server/* server/ && cp -R Develop/client/* client/ && npm run build"
   },
   "keywords": [],
   "author": "",

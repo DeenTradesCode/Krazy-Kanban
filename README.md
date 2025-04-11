@@ -157,6 +157,7 @@ The application will be available at `http://localhost:3001`
 5. Set up a PostgreSQL database on Render
 6. Deploy your application
 
+postgresql://kanban_rjsh_user:5qmCzxGYuDqAcGMUe8pqVmvUlD9gm59P@dpg-cvs6dkq4d50c7388thn0-a/kanban_rjsh
 ## Screenshots
 
 ![Kanban Board Login Page](./Assets/14-01-login-page.png)
